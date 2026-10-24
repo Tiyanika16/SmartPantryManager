@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SmartPantryManager" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:fontFamily">sans</item>
+
+        <item name="colorPrimary">#6B4FA8</item>
+        <item name="colorSecondary">#6B4FA8</item>
+
+    </style>
+
+</resources>

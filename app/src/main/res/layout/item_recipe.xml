@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/recipe_background">
+
+    <View
+        android:id="@+id/recipeColorAccent"
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:background="#6B4FA8" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomato Omelette"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/app_primary" />
+
+        <TextView
+            android:id="@+id/tvRecipeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A simple omelette made with eggs and tomatoes."
+            android:textSize="16sp"
+            android:textColor="@color/app_secondary_text"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginTop="7dp" />
+
+        <Button
+            android:id="@+id/btnViewRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="View Recipe"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:minHeight="0dp"
+            android:layout_marginTop="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
